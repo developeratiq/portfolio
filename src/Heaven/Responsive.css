@@ -1,0 +1,86 @@
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 37.5%;
+       
+  }
+  .headlogo{
+    border: 1px solid red;
+    display: none;
+  }
+  .content{
+    /* border: 1px solid blue; */
+    width: 80vw;
+    left: 8%;
+  }
+  .content h1{
+    color: red;
+    font-size: 25%;
+  }
+  .content2{
+    flex-wrap: wrap;
+  }
+
+  .cont1{
+    margin-top: 2rem;
+    width: 80vw;
+  }
+  .cont2{
+    width: 40vw;
+    padding: 0;
+  }
+  .img1{
+    margin-left: -10px;
+  }
+  .img1 img {
+    margin-top: 1rem;
+    height: 45vh;
+    width: 50vw;
+}  
+.img2 img{
+    width: 30vw;
+}
+
+.students,
+.teachers,
+.classroom{
+    width: 80vw;
+    margin-top: 1rem;
+}
+
+.footerContainer{
+/* border: 2px solid green; */
+display: flex;
+flex-direction: column;
+}
+.footercont{
+   
+    width: 80vw;
+    /* border: 2px solid red; */
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+}
+.h2 h1{
+    margin-left: -30vw;
+    /* border: 1px solid red; */
+
+}
+.socialinks{
+    margin-left: 10vw;
+}
+.input{
+    margin-top: 2.5rem;
+
+}
+.input input{
+    height: 40px;
+    font-size: medium;
+}
+.submitbtn{
+    width: 58vw;
+    color: white;
+    height:40px ;
+}
+.footercont h4{
+    font-size:25px;
+}
+}

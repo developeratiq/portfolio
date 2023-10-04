@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  .container{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .arrowicons{
+    font-size: 3vw; /* Use viewport width */
+  }
+  
+  .heading {
+    margin: 2%;
+  }
+  
+  .progress{
+    margin-bottom: 2%;
+  }
+  
+  .progress-bar{
+    background-color: greenyellow;
+  }
+  
+  .input{
+    position: relative;
+    margin-top: 1%;
+  }
+  
+  .input input{
+    width: 90%;
+    border-radius:.4rem ;
+    height: 2.5rem; /* Adjust height for better usability on mobile devices */
+    padding-left:3rem ;
+  }
+  
+  .button{
+    width: fit-content;
+    position: absolute;
+    top: 6%;
+    left: 2.4%;
+  }
+  
+  .occasions-lists{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    padding: .2rem;
+  }
+  
+  .occasions{
+    margin-top: 1.8%;
+    font-family: 'Franklin Gothic Medium', ;
+  }
+  
+  
+  .list{
+    border: 1px solid grey;
+    border-radius: 30%;
+    margin-right: 2%;
+    margin-top: 2%;
+    width: fit-content;
+    padding: .1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .list:hover ,
+   .list i:hover{
+    background-color:  rgb(230, 28, 28);
+    color: aliceblue;
+  }
+  
+  .list i{
+    color: rgb(230, 28, 28);
+    font-size: 1.6vw; /* Use viewport width */
+  }
+  /* .list i:hover{
+    color: white;
+  } */
+  
+  .list p{
+    font-size: 2.6vw; /* Use viewport width */
+    margin-top: .3rem;
+  }
+  
+  .ocinput{
+    display: flex;
+    gap: 4%;
+  }
+  
+  .ocinput input{
+    width: 100%;
+    padding: .4rem .8rem;
+    border-radius: .4rem;
+  }
+  
+  .decided{
+    margin-top: 2%;
+    padding: .3rem;
+    width: 81%;
+    border-radius: .4rem;
+  }
+  
+  .alert{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+  }
+  
+  .smiley{
+    font-size: 8vw; /* Use viewport width */
+    color: rgb(230, 28, 28);
+  }
+  .date input{
+    /* color: red; */
+  }
+  .alert{
+    background-color: rgb(182, 239, 239);
+    color: rgb(81, 81, 191);
+  }
+  .modal{
+    display: block;
+    width:20vw;
+     position: absolute;
+     
+  }
+
+  /* Styles for screens larger than 768px */
+  @media only screen and (max-width: 600px) {
+   .modal{
+    width: 70vw;
+    top: 50%;
+   }
+   .input{
+    text-align: left;
+   }
+   .save{
+    background-color: rgb(230, 28, 28);
+    margin-top: 2vh;
+    margin-bottom: .5vh;
+    border-radius: 5px;
+    padding: .3rem 0;
+   }
+  }
+

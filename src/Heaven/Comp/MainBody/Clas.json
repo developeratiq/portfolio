@@ -1,0 +1,27 @@
+[{
+    "class":"Drawing Class",
+    "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, vel accusamus! Fugiat praesentium assumenda quis in, at tempora maiores deleniti!",
+    "img":"https://media.istockphoto.com/id/1223141903/photo/back-view-of-elementary-students-raising-their-hands-on-a-class.jpg?s=612x612&w=0&k=20&c=Pbl-fSs6GcAMX5LSPOeAMXTAYyRmtQXA5xJkyAkOvYA=",
+    "NumOfKids":"40",
+    "ageofKids":"3-6 years",
+    "classTime":"8:00  to 10:00"
+
+},{
+    "class":"Art Classes",
+    "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, vel accusamus! Fugiat praesentium assumenda quis in, at tempora maiores deleniti!",
+    "img":"https://media.istockphoto.com/id/1223141903/photo/back-view-of-elementary-students-raising-their-hands-on-a-class.jpg?s=612x612&w=0&k=20&c=Pbl-fSs6GcAMX5LSPOeAMXTAYyRmtQXA5xJkyAkOvYA=",
+    "NumOfKids":"40",
+    "ageofKids":"3-6 years",
+    "classTime":"10:00  to 11:00"
+
+},{
+    "class":"Ectra Class",
+    "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, vel accusamus! Fugiat praesentium assumenda quis in, at tempora maiores deleniti!",
+    "img":"https://media.istockphoto.com/id/1223141903/photo/back-view-of-elementary-students-raising-their-hands-on-a-class.jpg?s=612x612&w=0&k=20&c=Pbl-fSs6GcAMX5LSPOeAMXTAYyRmtQXA5xJkyAkOvYA=",
+    "NumOfKids":"40",
+    "ageofKids":"3-6 years",
+    "classTime":"11:00  to 1:00"
+
+}
+
+]
