@@ -7,7 +7,7 @@ function Projects() {
   const arr =[1,2,3,4,5]
   return (
     <>
-    <NavBar/>
+    {/* <NavBar/> */}
     
     <div className="projectscontainer">
     <h1 className="heading"> <span>My</span> Projects </h1>

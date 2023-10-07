@@ -6,7 +6,7 @@ import Cards from './cardContainer/Cards';
 function Contact() {
   return (
     <>
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
     {/* <Blog></Blog>
     <Cards></Cards> */}
     <section className="contact" id="contact">

@@ -4,11 +4,17 @@ import '../navBar/NavBar';
 import NavBar from '../navBar/NavBar';
 import { Link } from 'react-router-dom';
 import About from './About';
+import { useEffect } from 'react';
 
-function Home() {
+function Home({Toggle,closeNav}) {
+  useEffect(()=>{
+// closeNav()
+  },[])
+  // console.log(Toggle)
+  // console.log(closeNav)
   return (
   <>
-    <NavBar></NavBar>
+    {/* <NavBar></NavBar> */}
    <section className="home" id="home">
 
 <h3>HI THERE !</h3>

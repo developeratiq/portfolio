@@ -3,9 +3,10 @@ import '../Css/Pages.css';
 import Home from './Home';
 import NavBar from'../navBar/NavBar'
 
-function About() {
+function About({name}) {
+    // console.log(name)
   return (<>
-    <NavBar></NavBar>
+    {/* <NavBar></NavBar> */}
     {/* <Home></Home> */}
 
   {/* here is about section */}

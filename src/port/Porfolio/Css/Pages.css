@@ -92,6 +92,7 @@ section{
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    transition: all .5s linear;
 }
 #close{
     /* border: 5px solid red; */
@@ -118,6 +119,7 @@ section{
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    transition: all .5s linear;
 
 }
 

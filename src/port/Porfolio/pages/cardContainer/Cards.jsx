@@ -5,7 +5,7 @@ import NavBar from '../../navBar/NavBar';
 function Cards() {
   return (
    <>
-   <NavBar></NavBar>
+   {/* <NavBar></NavBar> */}
    <Card/>
    </>
   )

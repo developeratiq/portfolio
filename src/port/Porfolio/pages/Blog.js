@@ -6,7 +6,7 @@ import NavBar from '../navBar/NavBar';
 function Blog() {
   return (
 <>
-<NavBar></NavBar>
+{/* <NavBar></NavBar> */}
     <section className="education" id="education">
 
         <h1 className="heading"> my <span>education</span> </h1>

@@ -13,18 +13,23 @@ function App1() {
      
  
 
-  
+  const [Toggle, setToggle] = useState(false)
 
+  const openNav =()=>{
+    setToggle(false)
+  }
+  const closeNav =()=>{
+    setToggle(true)
+  }
 
-
-
+const abc ='how are yu'
   return (
    <>
-   {/* <NavBar></NavBar> */}
    <BrowserRouter>
+   <NavBar  Toggle={Toggle}></NavBar>
    <Routes>
-   <Route path='/' element = {<Home    ></Home>}> </Route>  
-    <Route path='/about' element = {<About/>}> </Route>  
+   <Route path='/' element = {<Home Toggle={Toggle}  closeNav={closeNav}/>}> </Route>  
+    <Route path='/about' element = {<About name='atiq'/>}> </Route>  
     <Route path='/contact' element = {<Contact></Contact>}> </Route>  
     <Route path='/blog' element = {<Blog></Blog>}> </Route> 
     <Route path='/navbar' element = {<NavBar></NavBar>}> </Route> 
